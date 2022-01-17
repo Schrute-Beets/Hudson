@@ -5,7 +5,32 @@
     flex-direction: column;
 }
 
+.logo-panel {
+    text-align: center;
+    font-size: 55px;
+    height: 10vh;
+}
+
+.navigation ul {
+    display:flex;
+    gap: 60px;
+    background-color: rgb(243, 243, 243);
+    padding: 15px 0px;
+}
+
+.header,
+.content {
+    padding: 15px 40px;
+}
+
+.group-pic {
+    display: flex;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+}
 ul {
     list-style-type: none;
     text-decoration: none;
+
 }
