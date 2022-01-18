@@ -81,6 +81,18 @@ footer {
     font-weight: 700;
 }
 
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.qbox {
+    border: 7px outset rgb(107, 93, 199);
+    border-radius: 10px;
+    padding: 30px;
+}
+
 
 ul {
     list-style-type: none;
