@@ -64,7 +64,9 @@ footer {
 }
 
 .right-cards {
+    display: flex;
     margin-left: auto;
+
 }
 
 .group-pic {
@@ -73,6 +75,13 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+#rat-intro {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
 ul {
     list-style-type: none;
 }
