@@ -88,11 +88,18 @@ footer {
 }
 
 .qbox {
-    border: 7px outset rgb(107, 93, 199);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 7px outset rgb(70, 108, 231);
     border-radius: 10px;
-    padding: 30px;
+    padding: 15px;
 }
 
+.question {
+    font-size: 22px;
+    font-weight: 600;
+}
 
 ul {
     list-style-type: none;
