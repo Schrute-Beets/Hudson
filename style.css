@@ -71,9 +71,22 @@ footer {
 
 .group-pic {
     display: flex;
-    height: 55vh;
+    height: 45vh;
     justify-content: center;
     align-items: center;
+}
+
+#home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 80px;
+    font-weight: 500;
+}
+
+#home-text {
+    width: 40vw;
+    text-align: center;
 }
 
 #rat-intro {
