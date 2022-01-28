@@ -60,12 +60,30 @@ footer {
 
 .card-container {
     display: flex;
-    border: 5px;
+    margin: 0 45px;
+}
+
+.EG,
+.AM,
+.NG {
+    display: flex;
+    align-items: center;
+}
+
+.img-card-text {
+    padding: 0 25px;
+    width: 500px;
+}
+
+.left-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .right-cards {
     display: flex;
-    margin-left: auto;
+    margin: 0 10vw;
 
 }
 
@@ -84,7 +102,7 @@ footer {
     font-weight: 500;
 }
 
-#home-text {
+.center-text {
     width: 40vw;
     text-align: center;
 }
