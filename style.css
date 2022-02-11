@@ -88,12 +88,14 @@ footer {
 
 }
 
+/*
 .group-pic {
     display: flex;
     height: 45vh;
     justify-content: center;
     align-items: center;
 }
+*/
 
 #home-content {
     display: flex;
