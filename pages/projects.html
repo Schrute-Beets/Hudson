@@ -23,27 +23,58 @@
     </div>
 
     <body>
+
+        <div class="title">
+            Projects
+        </div>
+
         <div class="project-content">
-            <div class="title">
-                Projects
+
+            <div class="side-list">
+                <h3>OPTIONS</h3>
+                <ul margin="10px 0px";>
+                    <li style="padding-bottom:20px"><a href="#office-experience">The Office Experience</a></li>
+                    <li style="padding-bottom:20px"><a href="#animals">Animals</a></li>
+                    <li style="padding-bottom:20px"><a href="#pulley">Pulley</a></li>
+                </ul>
             </div>
 
-            <div class="video-container">
-                <video width="800" controls>
-                    <source src="../videos/the-office-video.mp4" type="video/mp4">
-                </video>
-            </div>
-            
             <div class="projects-container">
-                <div class="pets-container">
-                    <!-- <img src="../img/pulley.jpg" alt="Photo of a pulley system" width= "500"> -->
-                    <img src="../img/lilo1.jpg" alt="Photo of Lilo 1" width="400">
-                    <img src="../img/penny.jpg" alt="Photo of Lilo 1" width="400">
-                    <img src="../img/oscar.jpg" alt="Photo of Lilo 1" width="400">
+                <div class="video-container">
+                    <h3 id="office-experience">The Office Experience</h3>
+                    <video width="800" controls>
+                        <source src="../videos/the-office-video.mp4" type="video/mp4">
+                    </video>
+
+                    <div id="video-text">
+                        The Office and all its content is owned by NBC Universal Television Distribution. Use of any audio or video which is derivative from the work 
+                        is done in parody and for non-profit purposes.
+                    </div>
                 </div>
-                <div id="pets-text">
-                    Chief project for the Hudson is the promotion and developing of precious canines and felines. 
-                    With a strong background in  its patented Cute Care, the Hudson Group leverages animal companionship for optimal friendship performance.
+            
+                <div class="pets-container">
+                    <h3 id="animals">Animal Companions</h3>
+                    <div id="pets-images">
+                        <img src="../img/lilo1.jpg" alt="Photo of Lilo 1" width="220">
+                        <img src="../img/penny.jpg" alt="Photo of Lilo 1" width="220">
+                        <img src="../img/oscar.jpg" alt="Photo of Lilo 1" width="220">
+                    </div>
+
+                    <div id="pets-text">
+                        An important project for the Hudson is the promotion and developing of precious canines and felines. 
+                        With a strong background in its patented Cute Care, the Hudson Group leverages animal companionship for optimal friendship performance.
+                    </div>
+                </div>
+
+                <div class="pulley-container">
+                    <h3 id="pulley">Convenience Pulley</h3>
+                    <div id="pulley-content">
+                        <img src="../img/pulley.jpg" alt="Photo of a pulley system" width= "500">
+                        <div id="pulley-text">
+                            The product of engineering ingenuity, a pulley system has been installed for convenience. Often used for the disposal of various refuse, the 
+                            pulley system is capable of hoisitng upwards of 220 lb.
+                        </div>
+                    </div>
                 </div>
             </div>
 
